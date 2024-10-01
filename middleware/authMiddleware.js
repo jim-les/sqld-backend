@@ -1,0 +1,7 @@
+// middleware/authMiddleware.js
+const authMiddleware = (req, res, next) => {
+    // Placeholder for authentication logic
+    next();
+};
+
+module.exports = authMiddleware;
